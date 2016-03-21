@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.11.2015, 23:03:12
+    Author     : Marta
+*/
+@font-face {
+    font-family: 'Baron';
+    src: url('../fonts/baronneue.woff') format('woff'),
+        url('../fonts/baronneue.woff2') format('woff2'),
+        url('../fonts/baronneue.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma;
+    background-color: #c3c3c3;
+}
+.main {
+    width: 900px;
+    margin: 40px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0 0 5px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px 6px rgba(0,0,0,0.2);
+}
+.header {
+    width: 900px;
+    height: 200px;
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    margin: -20px -20px 20px -20px;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+
+}
+.header h1,
+.header h2,
+.header h3{
+    font-family: 'Baron', Arial;
+    margin-top: 130px;
+    color: #fff;
+    font-size: 23px;
+    text-shadow: 1px 1px 17px rgba(0, 0, 0, 1);
+}
+h1,
+h2,
+h3 {
+    font-family: Arial;
+
+}
+h1{
+    font-size: 20px;
+}
+h2 {
+    font-size: 17px;
+}
+h3 {
+    font-size: 15px;
+}
+body table tr td {
+    text-align: center !important;
+}
+.actions a {
+    display: block;
+    font-size: 12px;
+    line-height: 11px;
+    padding-bottom: 6px;
+}
+.right-text {
+    text-align: right; 
+}
